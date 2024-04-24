@@ -1,0 +1,36 @@
+.main-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+    background-color: #42a5f5;
+    padding: 16px;
+    border: 2px solid #0077c2;
+}
+
+.question {
+    margin-top: 8px;
+    font-size: 24px;
+}
+
+.input-div {
+    margin-top: 8px;
+}
+
+.guess {
+    padding: 4px;
+    font-size: 40px;
+    width: 100px;
+    text-align: center;
+}
+
+.button-div {
+    margin-top: 8px;
+}
+
+
+.result-div {
+    height: 50px;
+    margin-top: 8px;
+    font-size: 24px;
+}

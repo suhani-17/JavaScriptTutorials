@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card mt-4">
+                <div class="card-header">
+                    Which number (0 - 100) am I thinking of??
+                </div>
+                <div class="card-body">
+                    <div>
+                        <input class="form-control" id="guess" type="number" min=0 max=100/>
+                        <div class="form-text">Enter a guess. It should be a number between 0 and 100</div>
+                    </div>
+                    <div>
+                        <button onclick="checkGuess()" class="btn btn-primary mt-3" >Check Your Guess</button>
+                    </div>
+                    <div id="result">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src='random.js'></script>
+</html>
