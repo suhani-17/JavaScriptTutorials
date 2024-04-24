@@ -1,0 +1,18 @@
+<h1>The Greetings Website!</h1>
+<label>Hey there! what's your name?</label>
+<input id='name' />
+<button onclick="showGreeting1()">Greet me!</button>
+<button onclick="showGreeting2()">Greet me!</button>
+<script>
+	function showGreeting1(){
+		var user_name = document.getElementById('name').value
+		var custom_greeting = "Good Evening " + user_name 
+		alert(custom_greeting)
+	}
+
+    function showGreeting2(){
+		var user_name = document.getElementById('name').value
+		var custom_greeting = "Good Morning " + user_name 
+		alert(custom_greeting)
+	}
+</script>
